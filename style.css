@@ -1,0 +1,62 @@
+/* Base */
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 4em;
+    background-color: #cfafaf;
+    color: #404040;
+}
+
+
+/* Body styles */
+
+.heading, .stopwatch, .button-div{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    flex-wrap: wrap;
+}
+
+h1 {
+    font-family: 'Quicksand', sans-serif;
+    font-size: 2.5em;
+}
+
+h2{
+    letter-spacing: 3px;
+    padding: 0 10px;
+    font-family: 'roboto', sans-serif;
+    font-size: 2.5em;
+}
+
+.button-div{
+    display: flex;
+    width: 100%;
+    padding-top: 2em;
+    justify-content: center;
+}
+
+.buttons{
+    width: 100px;
+    height: 50px;
+    font-size: 1em;
+    border-radius: 12px;
+    margin: 0 20px;
+    border: 2px solid white;
+    transition-duration: 0.4s;
+    font-family: 'open-sans', sans-serif;
+    color: #404040;
+}
+
+.buttons:hover {
+    background-color: white;
+    color: #bc8f8f;
+}
+
+.buttons:active{
+    transform: translateY(2px);
+}
